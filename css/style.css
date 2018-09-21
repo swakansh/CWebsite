@@ -1,0 +1,30 @@
+/* Important Guidelines for styling
+    1. Every section styles will be in a separate section that will be like
+    Section1 styles start
+    ...
+    ...
+    ...
+    Section1 styles end
+
+    2. If section1 is being styled that every css rule will be prefixed by id of that particular section
+    , so that styles of one section do not affect the styles of other section.
+    
+    3. Common styles will be placed in common section at the top.
+    
+    4. Similar guidelines(whichever applicable) will also be followed when writing JavaScript files.
+
+    You can add any guideline you think should be followed.
+Guidelines end */
+
+
+/*Common styles*/
+body{
+    margin:0;
+    padding:0;
+}
+.cs{
+    height:100vh;   
+    border:2px solid blue;
+}
+/*Common styles end*/
+
